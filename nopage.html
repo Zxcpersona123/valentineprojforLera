@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body style = "background: mediumpurple;">
+<h1 style = "font: 3px;position: absolute; left: 630px;top:130px;">Are you sure?</h1>
+<img id = "aimg"src="https://media1.tenor.com/m/HPht2t341E8AAAAC/puppy-dog-eyes-sad.gif" style="position:absolute;left:500px;top:200px;width:500px;height: 300px;">
+
+
+
+<button onclick="yes()" style="position: absolute;left: 550px;top: 550px;width: 100px;height: 70px;">YES</button>
+
+<button onclick="no()"style="position: absolute;left: 800px;top: 550px;width: 100px;height: 70px;">NO</button>
+
+
+</body>
+<script type="text/javascript">
+	setTimeout(function yes() {
+    window.location.href = "startpage.html";
+   
+	}, 7000);
+	function yes() {
+		alert("The wrong one, try again")
+		
+	}
+	function no() {
+		
+
+		alert("yayayayayayay! lets gooo")
+		var imgElement = document.getElementById('aimg');
+        imgElement.src = 'https://i.makeagif.com/media/10-31-2023/b0_og8.gif';
+		//window.location.href = "yespage.html";
+	}
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>				
